@@ -1,0 +1,235 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------  Parte 1 --------------- */
+
+.cab {
+    background-color: #a6a6a6;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Box-Img img{
+    height: 40px;
+    width: 170px;
+    margin: 10px;
+}
+
+.bt1 {
+    background-color: #a6a6a6;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+.bt1:hover {
+    background-color: black;
+    color: #a6a6a6;
+}
+
+.bt2 {
+    background-color: #b9b8b8;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin: 20px;
+}
+
+.bt2:hover {
+    background-color: rgb(119, 119, 119);
+    color: #000000;
+}
+
+.bt3 {
+    background-color: rgb(0, 178, 248);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+
+.bt3:hover {
+    background-color: rgb(37, 119, 226);
+    color: #ffffff;
+}
+
+/* -------------  FIM Parte 1 --------------- */
+
+/* -------------  Parte 2 -------------  */
+
+.container-2 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../Images/pexels-tima-miroshnichenko-6694543.jpg);
+    filter: saturate(70%);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    width: 60%;
+    padding: 5rem;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 7vmin;
+}
+
+.hero-content p {
+    font-size: 2vmin;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 3.6rem;
+}
+
+.bt4 {
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+
+.bt4 {
+    text-decoration: underline;
+}
+
+.bt4:hover {
+    background-color: rgb(51, 51, 51, .5);
+    color: #ffffff;
+}
+
+
+/* -------------  FIM Parte 2 -------------  */
+
+/* -------------  Parte 3 -------------  */
+
+.block-cards {
+    background-color: #ffffff;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.block-cards h1 {
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.block-cards h2 {
+    font-size: 2.5vmin;
+    text-align: center;
+}
+
+.test {
+    width: 100%;
+    justify-content: center;
+}
+
+.cards {
+    display: inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-1 {
+    margin: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.graphyc {
+    color: white;
+    filter: contrast(0);
+    width: 50px;
+    margin: 20px;
+}
+
+.go {
+    background-color: white;
+    padding: 15px 20px 10px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.seta{
+    width: 25px;
+}
+
+.bt5 {
+    background-color: rgb(0, 178, 248);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px 100px;
+}
+
+
+.bt5:hover {
+    background-color: rgb(37, 119, 226);
+    color: #ffffff;
+}
+
+
+/* -------------  FIM Parte 3 -------------  */
+
+.app {
+    background-color: #383838;
+    padding: 30px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.app h1 {
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.app h2 {
+    font-size: 1.5vmin;
+    text-align: center;
+}
+
+.app img {
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 40px;
+    width: 40%;
+}
